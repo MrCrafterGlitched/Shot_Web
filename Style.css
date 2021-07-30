@@ -1,0 +1,96 @@
+body {
+   margin: 0;
+   padding-top: 800px;
+       text-align: center;
+       background: linear-gradient(#00ffae 0%, #a2ff00 100%);
+}
+.Founder {
+   width: 400px;
+   height: 400px;
+  border: dashed 5px darkslategray;
+   margin-bottom: 50px;
+}
+#Welcome {
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   height: 800px;
+   background: linear-gradient(#00ffae 0%, #a2ff00 100%);
+   opacity: 0.85;
+   display: table;
+   z-index: 30;
+}
+.Welcome_Div {
+   position: relative;
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center
+}
+h1 {
+   font-size: 20px;
+   font-family: 'Reggae One', cursive;
+}
+#Name {
+   font-size: 25px;
+   color: chocolate;
+   font-style: italic;
+   line-height: 2;
+}
+h2 {
+   font-family: 'Crimson Text', serif;
+   line-height: 2;
+}
+#Bio{
+   padding: 50px;
+   text-align: center;
+}
+.line{
+   width: 70px;
+   height: 6px;
+   background-color: darkgrey;
+   margin: 25px auto;
+       
+}
+p{
+   max-width: 450px;
+   margin: 25px auto;
+   font-size: 30px;
+   color: whitesmoke;
+}
+.Menu{
+   list-style: none;
+   position: fixed;
+   top: 10px;
+   right: 30px;
+   cursor: pointer;
+   z-index: 50;
+   background-color: rgb(35, 145, 145);
+}
+.Links{
+   float: left;
+   padding: 5px 15px;
+   font-size: 20px;
+   font-family: fantasy;
+}
+.Links:hover{
+   background-color: darksalmon;
+   
+}
+html{
+   scroll-behavior: smooth;
+}
+.Article{
+   font-size: 25px;
+   text-decoration: underline;    
+}
+.Article:hover{
+   color: darkgoldenrod;
+}
+#Quote{
+   width: 500px;
+   height: 450px;
+}
